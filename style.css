@@ -16,6 +16,17 @@ body {
 
 .countdown {
   display: flex;
+  flex-direction: column; /* stack heading above timer */
+  align-items: center;
+  gap: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.timer-row {
+  display: flex;   /* make time boxes row */
   gap: 20px;
 }
 
