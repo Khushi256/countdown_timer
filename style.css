@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a; 
+  color: white;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+}
+
+.time-box {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.time-box span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.time-box p {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #94a3b8;
+}
