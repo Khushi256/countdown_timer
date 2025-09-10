@@ -7,32 +7,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="countdown">
-    <div class="header">
-      <h1>Javascript Timer Web App</h1>
-      <br>
-      <p>This timer will end on Wednesday 4th May 2022 at 3:30 PM</p>
-       <br>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left">
+      <div class="countdown">
+        <div class="header">
+          <h1 style="color: rgb(72, 109, 229); font-weight: 900; font-size: 50px;">JavaScript Timer Web App</h1>
+          <br>
+          <br>
+          <p>Set your own countdown date and time below:</p>
+          <br>
+          <input type="datetime-local" id="datetime-input">
+          <button onclick="startCountdown()">Start Countdown</button>
+        </div>
+
+        <br>
+        <div class="timer-row">
+          <div class="time-box">
+            <span id="days">00</span>
+            <p>Days</p>
+          </div>
+          <div class="time-box">
+            <span id="hours">00</span>
+            <p>Hours</p>
+          </div>
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <p>Minutes</p>
+          </div>
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-    <div class="timer-row">
-      <div class="time-box">
-        <span id="days">00</span>
-        <p>Days</p>
-      </div>
-      <div class="time-box">
-        <span id="hours">00</span>
-        <p>Hours</p>
-      </div>
-      <div class="time-box">
-        <span id="minutes">00</span>
-        <p>Minutes</p>
-      </div>
-      <div class="time-box">
-        <span id="seconds">00</span>
-        <p>Seconds</p>
-      </div>
+    <!-- Right Section -->
+    <div class="right">
+      <img src="time.jpg" alt="Countdown Image">
     </div>
   </div>
 
